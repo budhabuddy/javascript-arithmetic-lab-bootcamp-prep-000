@@ -29,7 +29,7 @@ function dec(n) {
 }
 
 function makeInt(n) {
-  let parses = parseInt('2.222', n);
+  let parses = parseInt('2.222', 'n');
   if(isNaN(parses)) {return 0}
     return parses * 'n';
   }
