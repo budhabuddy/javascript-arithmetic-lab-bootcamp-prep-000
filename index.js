@@ -39,5 +39,7 @@ function preserveDecimal(n) {
   if(isNaN(parses)){return 0}
   return parses * '1';
   }
+  console.log(NaN);
+  
 
 
