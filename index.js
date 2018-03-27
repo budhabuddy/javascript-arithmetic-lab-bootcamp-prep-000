@@ -35,7 +35,7 @@ function makeInt(n) {
   }
 
   function preserveDecimal(n) {
-  let parses = parseFloat('2.222', 10);
+  let parses = parseFloat('2.222', 10, 'n');
   if(isNaN(parses)){return 0}
   return parses * '1';
   }
